@@ -17,13 +17,11 @@ if timeThreshold:
 
 outputFolder = "outputFiles/"
 path = 'DDP_dump/'
-path = '/Users/anastasia/Documents/research-awesome-uva-uu/DDPs_text/'
 
 if __name__ == '__main__':
 
     if generateFeatures:
         """Unzip files in case they are not"""
-        # pathToZipped = '/Users/anastasia/Documents/research-awesome-uva-uu/DDPs_text/'
         # data.unzipFiles(pathToZipped)
 
         """Loading data"""
